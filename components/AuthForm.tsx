@@ -139,7 +139,7 @@ const AuthForm = ({ type }: { type: string }) => {
                 </>
               )}
 
-              <CustomInput control={form.control} name='email' label="Email" placeholder='test1234@gmail.com (mail for demo card/acc)' />
+              <CustomInput control={form.control} name='email' label="Email" placeholder='test1234@test.com (mail for demo card/acc)' />
 
               <CustomInput control={form.control} name='password' label="Password" placeholder='123456789 (pass for demo card/acc)' />
 
